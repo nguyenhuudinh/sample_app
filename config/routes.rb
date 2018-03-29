@@ -17,6 +17,8 @@ Rails.application.routes.draw do
 
   get '/index', to: 'users#index'
 
+  get '/show', to: 'users#show'
+
   
   get '/login', to: 'sessions#new'
 
