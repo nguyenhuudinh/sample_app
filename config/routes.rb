@@ -16,13 +16,9 @@ Rails.application.routes.draw do
 
   get '/index', to: 'users#index'
 
-<<<<<<< HEAD
-
-=======
   get '/show', to: 'users#show'
 
-  
->>>>>>> basic-login
+
   get '/login', to: 'sessions#new'
 
   post '/login', to: 'sessions#create'
