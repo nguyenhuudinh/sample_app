@@ -7,7 +7,9 @@ end
 
 gem 'bcrypt',  '3.1.11'
 gem 'faker',   '1.7.3'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+# Bundle edge Rails instead: gem 'rails', github: 'indexrails/rails'
 gem 'rails', '5.1.5'
 
 # Use Puma as the app server
