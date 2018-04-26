@@ -1,7 +1,7 @@
 # Preview all emails at http://localhost:4001/rails/mailers/user_mailer
 class UserMailerPreview < ActionMailer::Preview
 
-  # Preview this email 
+  # Preview this email at
   # at http://localhost:4001/rails/mailers/user_mailer/account_activation
   def account_activation
   	user = User.first
