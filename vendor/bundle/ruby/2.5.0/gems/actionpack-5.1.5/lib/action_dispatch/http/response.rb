@@ -26,12 +26,12 @@ module ActionDispatch # :nodoc:
   # For example, the following demo integration test prints the body of the
   # controller response to the console:
   #
-  #  class DemoControllerTest < ActionDispatch::IntegrationTest
-  #    def test_print_root_path_to_console
-  #      get('/')
-  #      puts response.body
-  #    end
-  #  end
+  class DemoControllerTest < ActionDispatch::IntegrationTest
+     def test_print_root_path_to_console
+       get('/')
+       puts response.body
+     end
+   end
   class Response
     class Header < DelegateClass(Hash) # :nodoc:
       def initialize(response, header)
