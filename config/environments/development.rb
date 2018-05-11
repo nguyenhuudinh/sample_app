@@ -12,6 +12,22 @@ Rails.application.configure do
   # Show full error reports.
   config.consider_all_requests_local = true
 
+  #Sending email from localhost with ActionMailer
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   address: "smtp.gmail.com",
+  #   port: 587,
+  #   domain: "localhost:4001",
+  #   authentication: "plain",
+  #   enable_starttls_auto: true,
+  #   user_name: ENV["GMAIL_USERNAME"],
+  #   password: ENV["GMAIL_PASSWORD"]
+  # }
+  # # in config/application.rb or in the appropriate env file in config/environments/, add:
+  # config.action_mailer.smtp_settings = { enable_starttls_auto: false  }
+
+
+
   # Enable/disable caching. By default caching is disabled.
   if Rails.root.join('tmp/caching-dev.txt').exist?
     config.action_controller.perform_caching = true
@@ -31,7 +47,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :test
   host = 'http://localhost:4001' # local server
    # Don't use this literally; use your local dev host instead
-  config.action_mailer.default_url_options = { host: host}
+  config.action_mailer.default_url_options = { host: host, protocol: 'http'}
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
