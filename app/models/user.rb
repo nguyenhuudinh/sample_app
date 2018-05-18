@@ -53,6 +53,10 @@ class User < ApplicationRecord
     UserMailer.account_activation(self).deliver_now
   end
 
+  def feed
+    Micropost.where("user_id = ?", id)
+  end
+
   private
 
   #converts email to all lower-case
