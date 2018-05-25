@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20180522T103000Z
+DTEND:20180522T110000Z
+DTSTAMP:20180521T121552Z
+ORGANIZER;CN=duyen.tran@room-network.live:mailto:duyen.tran@room-network.li
+ ve
+UID:5pmalq5pbpd9dl9ebb6qagne34@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=duyen.tran@room-network.live;X-NUM-GUESTS=0:mailto:duyen.tran@room-netw
+ ork.live
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;X-NUM-GUESTS=0:mailto:dinhnguyenhuu1995@gmail.com
+CREATED:20180521T121551Z
+DESCRIPTION:Date: Tuesday\, 22nd May\, 2018\nTime: 5:30PM \nVenue: Park 6A\
+ , Vinhome Central Park\, W.22\, Binh Thanh District\, HCMC\nContact Person:
+  Ms. Duyen - 0934 829 617\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nVui lòng không chỉnh sửa phần mô
+  tả này.\n\nSự kiện này có một cuộc gọi điện video.\nTham gia: https://meet
+ .google.com/gpx-bzgo-bhm\n+1 470-241-5867 Mã PIN: 255321735#\n\nXem sự kiện
+  của bạn tại https://www.google.com/calendar/event?action=VIEW&eid=NXBtYWxx
+ NXBicGQ5ZGw5ZWJiNnFhZ25lMzQgZGluaG5ndXllbmh1dTE5OTVAbQ&tok=MjgjZHV5ZW4udHJh
+ bkByb29tLW5ldHdvcmsubGl2ZTFkMWIzYmQ2OTVmZGM2YjhjM2RlMDQ3YTMxNGVhN2ViYWQ2ZWY
+ 4ZGY&ctz=Asia%2FSaigon&hl=vi&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20180521T121551Z
+LOCATION:Vinhomes Central Park\, Phường 22\, Bình Thạnh\, Ho Chi Minh City\
+ , Vietnam
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[Interview - Entree] Dinh Nguyen 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
