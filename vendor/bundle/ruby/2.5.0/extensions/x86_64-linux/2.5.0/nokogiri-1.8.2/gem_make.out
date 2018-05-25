@@ -1,5 +1,5 @@
 current directory: /home/nguyenhuudinh/BA/Ruby/Practice/sample_app/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.8.2/ext/nokogiri
-/usr/local/bin/ruby -r ./siteconf20180525-9380-191dtx8.rb extconf.rb --use-system-libraries
+/usr/local/bin/ruby -r ./siteconf20180525-11553-1xoxs9j.rb extconf.rb --use-system-libraries --with-xml2-lib=/usr/local/lib --with-xml2-include=/usr/local/include/libxml2/libxml --with-xslt-lib=/usr/local/lib --with-xslt-include=/usr/local/include/libxslt --with-iconv-lib=/usr/local/lib --with-iconv-include=/usr/local/include
 checking if the C compiler accepts ... *** extconf.rb failed ***
 Could not create Makefile due to some reason, probably lack of necessary
 libraries and/or headers.  Check the mkmf.log file for more details.  You may
