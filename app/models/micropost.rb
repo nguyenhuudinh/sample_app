@@ -4,5 +4,15 @@ class Micropost < ApplicationRecord
   mount_uploader :picture, PictureUploader
   validates :user_id, presence: true
   validates :content, presence: true, length: { maximum: 140 }
+  validate :picture_size 
 end
+
+private
+
+def picture_size
+  if picture.size > 10.megabytes
+    errors.add(:picture, "should be less 5MB")
+  end
+end
+
 
