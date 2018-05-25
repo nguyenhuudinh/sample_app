@@ -1,0 +1,37 @@
+current directory: /home/nguyenhuudinh/BA/Ruby/Practice/sample_app/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.8.2/ext/nokogiri
+/usr/local/bin/ruby -r ./siteconf20180525-9380-191dtx8.rb extconf.rb --use-system-libraries
+checking if the C compiler accepts ... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib64
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/local/bin/$(RUBY_BASE_NAME)
+	--help
+	--clean
+/usr/local/lib64/ruby/2.5.0/mkmf.rb:456:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+	from /usr/local/lib64/ruby/2.5.0/mkmf.rb:574:in `block in try_compile'
+	from /usr/local/lib64/ruby/2.5.0/mkmf.rb:521:in `with_werror'
+	from /usr/local/lib64/ruby/2.5.0/mkmf.rb:574:in `try_compile'
+	from extconf.rb:138:in `nokogiri_try_compile'
+	from extconf.rb:162:in `block in add_cflags'
+	from /usr/local/lib64/ruby/2.5.0/mkmf.rb:632:in `with_cflags'
+	from extconf.rb:161:in `add_cflags'
+	from extconf.rb:410:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/nguyenhuudinh/BA/Ruby/Practice/sample_app/vendor/bundle/ruby/2.5.0/extensions/x86_64-linux/2.5.0/nokogiri-1.8.2/mkmf.log
+
+extconf failed, exit code 1
